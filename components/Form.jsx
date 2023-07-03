@@ -17,7 +17,7 @@ const Form = ({
             your Ai Prompt
           </span>
           <textarea
-            value={post.promt}
+            value={post.prompt}
             onChange={(e) => setPost({ ...post, prompt: e.target.value })}
             required
             className="form_textarea"
